@@ -3,7 +3,7 @@ import {RouterProvider} from "react-router-dom"
 import {Provider} from "react-redux"
 import appRouter from "./components/appRouter/routes"
 
-import appStore from "../../../MakeHomeFurnishing/frontend/src/components/store/appStore"
+import appStore from "../src/components/store/appStore"
 import Home from "./pages/home"
 function App() {
   return (
